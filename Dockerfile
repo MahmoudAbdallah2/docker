@@ -1,4 +1,6 @@
- USER root 
- RUN apt-get update 
- RUN groupadd docker && gpasswd -a jenkins docker 
- USER jenkins
+#Base Image
+FROM ubuntu
+
+#Do image configuration
+RUN apt-get update
+RUN touch file.txt
