@@ -6,6 +6,5 @@ pipeline {
         stage("Test"){
           echo "HelloWorld!"
             }
-        }
        }
 }
